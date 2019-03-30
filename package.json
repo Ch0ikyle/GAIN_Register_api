@@ -1,0 +1,30 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "GAIN(school wep app)'s register api",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "npm-windows-upgrade": "^6.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "start": "babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ch0ikyle/GAIN_Register_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ch0ikyle/GAIN_Register_api/issues"
+  },
+  "homepage": "https://github.com/Ch0ikyle/GAIN_Register_api#readme"
+}
