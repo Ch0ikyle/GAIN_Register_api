@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
+
 <body>
-    <h1>회원가입</h1>
-    <form method="POST" action="register" class="form-horizontal">
-        <input name="id" value='' id="id" placeholder="Id" type="text" class="form-control" />
-        <input name="password" id="password" value='' placeholder="Password" type="password" class="form-control" />
-        <input name="password_check" id="password_check" value='' placeholder="Password" type="password" class="form-control" />
-        <input name="studentId" id="studentId" value='' placeholder="Student Id" type="text" class="form-control" />
-        <input name="class" id="class" value='' placeholder="Class" type="text" class="form-control" />
-    </form> 
+    <div class="login-box">
+        <form method="POST" action="register" class="login-form">
+            <h1>회원가입</h1>
+            <input name="id" id="id" placeholder="아이디" type="text" class="txtb" />
+            <input name="password" id="password" placeholder="비밀번호" type="password" class="txtb" />
+            <input name="password_check" id="password_check" placeholder="비밀번호 확인" type="password" class="txtb" />
+            <input name="studentId" id="studentId" placeholder="학번" type="text" class="txtb" />
+            <input name="certification" id="certification" placeholder="인증번호" type="text" class="txtb" />
+        </form>
+    </div>
 </body>
 </html>
